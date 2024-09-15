@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>login page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>ایجاد حساب کاربری</h1> 
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span> 🙂 لطفا از ایمیل خود برای ثبت نام استفاده کنید</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>ثبت نام</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>ورود به برنامه</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span style="font-size: 0.9rem; font-family:emoji">:)برای ورود یوزرنیم و پسورد خود را بی زحمت وارد کنید  </span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#" style="font-size: 0.9rem;"> رمز عبورتو فراموش کردی؟</a>
+                <button>ورود به برنامه</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>به عقب برگردید</h1>
+                    <p>اگر از قبل ایجاد حساب کردید از اینجا شروع کنید</p>
+                    <button class="hidden" id="login">ورود به برنامه</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1 style="font-size: x-large;" >😊سلام دوست خوب من</h1>
+                    <p>برای ایجاد حساب خود از اینجا میتونی شروع کنی</p>
+                    <button class="hidden" id="register">ثبت نام</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
